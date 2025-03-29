@@ -52,6 +52,8 @@ namespace CV_Management
             EducationEndPoints.RegisterEndPoints(app);
             JobExperienceEndPoints.RegisterEndPoints(app);
             UserEndPoints.RegisterEndPoints(app);
+
+
             GitHubEndPoint.RegisterEndPoints(app);
 
             app.Run();
